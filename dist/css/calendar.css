@@ -1,0 +1,26 @@
+.date-component {
+  width: 100%; }
+  .date-component .m-date {
+    margin-bottom: 20px; }
+  .date-component .week {
+    width: 100%; }
+  .date-component .day, .date-component .week span {
+    float: left;
+    width: 14.2857%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; }
+  .date-component .day {
+    background: #009688;
+    color: #FFFFFF; }
+  .date-component .to-gray {
+    color: #555; }
+  .date-component .calendar-days {
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    overflow: auto;
+    width: 100%;
+    padding-top: 10px; }
+
+/*# sourceMappingURL=calendar.css.map */

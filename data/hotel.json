@@ -1,0 +1,144 @@
+{
+  "errcode": 0,
+  "errmsg": "请求成功",
+  "result": {
+    "total": 15,
+    "hotel_list": [
+      {
+        "hotel_id": 1,
+        "name": "7天酒店",
+        "addr": "北京市朝阳区东四十条",
+        "stars": "三星",
+        "image": "img/3.jpg",
+        "low_price": 19800,
+        "distance": 1300
+      },
+      {
+        "hotel_id": 2,
+        "name": "汉庭酒店",
+        "addr": "北京市海淀区上地",
+        "stars": "四星",
+        "image": "img/1.jpg",
+        "low_price": 21800,
+        "distance": 7000
+      },
+      {
+        "hotel_id": 3,
+        "name": "翠微酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "四星",
+        "image": "img/1.jpg",
+        "low_price": 31800,
+        "distance": 700
+      },
+      {
+        "hotel_id": 1,
+        "name": "天安瑞安酒店",
+        "addr": "北京市朝阳区东四十条",
+        "stars": "三星",
+        "image": "img/2.jpg",
+        "low_price": 9800,
+        "distance": 1380
+      },
+      {
+        "hotel_id": 2,
+        "name": "汉庭酒店",
+        "addr": "北京市海淀区上地",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 22800,
+        "distance": 1100
+      },
+      {
+        "hotel_id": 3,
+        "name": "翠微酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "经济型",
+        "image": "img/2.jpg",
+        "low_price": 23800,
+        "distance": 700
+      },
+      {
+        "hotel_id": 1,
+        "name": "北京天安瑞安酒店",
+        "addr": "北京市朝阳区东四十条",
+        "stars": "二星",
+        "image": "img/2.jpg",
+        "low_price": 49800,
+        "distance": 1300
+      },
+      {
+        "hotel_id": 2,
+        "name": "汉庭酒店",
+        "addr": "北京市海淀区上地",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 61850,
+        "distance": 70
+      },
+      {
+        "hotel_id": 3,
+        "name": "锦江之星",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 91450,
+        "distance": 11700
+      },
+      {
+        "hotel_id": 3,
+        "name": "锦江之星",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 11450,
+        "distance": 9700
+      },
+      {
+        "hotel_id": 3,
+        "name": "和颐酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 31450,
+        "distance": 4700
+      },
+      {
+        "hotel_id": 3,
+        "name": "和颐酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 41450,
+        "distance": 540
+      },
+      {
+        "hotel_id": 3,
+        "name": "翠微酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 51450,
+        "distance": 790
+      },
+      {
+        "hotel_id": 3,
+        "name": "7天酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 21450,
+        "distance": 1200
+      },
+      {
+        "hotel_id": 3,
+        "name": "翠微酒店",
+        "addr": "北京市海淀区清河",
+        "stars": "五星",
+        "image": "img/2.jpg",
+        "low_price": 21450,
+        "distance": 890
+      }
+    ]
+  }
+}

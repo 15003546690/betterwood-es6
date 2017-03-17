@@ -1,0 +1,38 @@
+.load-wrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 11;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  animation: loading 2s linear infinite;
+  .loading-circle{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 100%;
+    background: lawngreen;
+    width: 14px;
+    height: 14px;
+  }
+
+  @keyframes loading {
+    0%{
+      transform: rotate(0deg);
+    }
+
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  @for $i from 1 to 8{
+    .lc#{$i}{
+      transform-origin: 30px 30px;
+      transform: rotate($i*45deg);
+      opacity: $i*0.125;
+    }
+
+  }
+}

@@ -1,0 +1,92 @@
+@import "reset";
+@import "common";
+@import "swiper";
+@import "city";
+@import "calendar";
+@import "dialog";
+.banner{
+  height: 135px;
+  width: 100%;
+  position: relative;
+  .swiper-container{
+    height: 100%;
+  }
+  .tips{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 20px;
+    pointer-events: none;
+  }
+  .banner-img-1{
+    background: url("../img/fullimage3.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .banner-img-2{
+    background: url("../img/fullimage4.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .banner-img-3{
+    background: url("../img/fullimage5.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+.data-area{
+  padding-left: 10px;
+  background: #FFFFFF;
+  overflow: hidden;
+  .data-area-item{
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    display: -webkit-box;
+    span{
+      float: left;
+    }
+    .data-title{
+      font-size: 18px;
+      padding-left: 15px;
+      &:before{
+        content: '';
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        margin-top: -4px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: $baseColor;
+      }
+    }
+    .data-city{
+      color: $primary-color;
+      font-size: 20.4px;
+      text-indent: 12.5px;
+    }
+    .data-live-in,.data-leave,.data-city{
+      flex:1;
+      -webkit-box-flex: 1;
+    }
+    .right-arrow{
+      float: right;
+      position: relative;
+      height: 100%;
+      width: 25px;
+      @include rightArrow($color:$primary-color,$bgColor:#fff);
+    }
+  }
+}
+.book-btn{
+  background: $primary-color;
+  text-align: center;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 20px;
+}
+
+

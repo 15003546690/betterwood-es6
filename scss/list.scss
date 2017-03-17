@@ -1,0 +1,132 @@
+@import "reset";
+@import "common";
+@import "calendar";
+@import "dialog";
+@import "loading";
+.list{
+  .list-pick-date{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 45px;
+    border-bottom: 2px solid #EBebeb;
+    span{
+      float: left;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+    }
+  }
+
+  .hotel-list{
+    background: #ffffff;
+    margin-bottom: 45px;
+    .hotel-item{
+      padding: 15px 10px;
+      border-bottom: 1px solid #ccc;
+      @include flex;
+      dt{
+        height: 70px;
+        width: 70px;
+
+        img{
+          width: 100%;
+          height: 100%;}
+        
+      }
+      dd{
+        @include flexTo(1);
+        padding-left: 10px;
+        line-height: 1.7;
+        .hotel-title{
+          font-size: 1rem;
+          color: #333;
+          line-height: 1.1;
+        }
+        .hotel-score{
+          color: $orange;
+          .hotel-price{
+            float: right;
+          }
+        }
+        .hotel-grade{
+          color: #777;
+        }
+        .hotel-location{
+          color: #777;
+          .hotel-distance{
+            float: right;
+          }
+        }
+      }
+    }
+  }
+
+  .filter-nav{
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    border-top:2px solid $primary-color;
+    background: #ffffff;
+    span{
+      float: left;
+      width: 25%;
+      height: 100%;
+      line-height: 45px;
+      text-align: center;
+      border-right: 1px solid #ccc;
+      border-top: 1px solid #fff;
+      &:last-child{
+        border:none;
+      }
+      display: table-cell;
+      @include up-arrow($bColor:#fff,$w:6px, $h:6px, $color:$baseColor,$right:12px,$top:50%)
+
+    }
+    span.active{
+      color: $primary-color;
+      border-top-color: $primary-color;
+      &:after{
+        border-right-color: $primary-color;
+        border-bottom-color: $primary-color;
+      }
+    }
+  }
+
+  .filter-items{
+    display: none;
+    z-index: 9;
+    width: 400%;
+    height: 225px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 45px;
+    .filter-box{
+      float: left;
+      width: 25%;
+      height: 100%;
+      p{
+        border-bottom: 1px solid #ccc;
+        height: 45px;
+        line-height: 25px;
+        padding: 12px 10px;
+      }
+      overflow: auto;
+    }
+  }
+  .check-box{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border: 2px solid $primary-color;
+
+  }
+  .check-box.checked{
+    @include up-arrow($bColor:#fff,$w:5px, $h:10px, $color:$primary-color,$right:5px,$top:0);
+    &:after{
+      transform: rotate(45deg);
+    }
+
+  }
+}
